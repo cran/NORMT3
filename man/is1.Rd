@@ -2,12 +2,12 @@
 \alias{is1}
 \title{Compute IS1 formula from Nason (2005) }
 \description{
-	Computes $I_{S1}(p,d) = \int_{d}^{\infty} \cos (px) \exp (-x^2) dx$}
+  Computes
+  \deqn{I_{S1}(p,d) = \int_{d}^{\infty} \cos (px) \exp (-x^2) dx}
 }
 \usage{
 is1(p, d)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{p}{ Argument for IS1 function}
   \item{d}{ Argument for IS1 function}

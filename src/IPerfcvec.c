@@ -19,10 +19,10 @@
 		(computed by TOMS routine 680). Zero means no error.
  */
 
-void IPerfcvec(double *x, double *y, double *ansx, double *ansy, long *n,
-	long *error)
+void IPerfcvec(double *x, double *y, double *ansx, double *ansy, int *n,
+	int *error)
 {
-long i;
+int i;
 int flag;
 void IPerfc();
 void wofz_();
@@ -42,7 +42,7 @@ for(i=0; i< *n; ++i)	{
 	}
 }
 
-void IPerfc(double *a, double *b, double *outa, double *outb, long *error)
+void IPerfc(double *a, double *b, double *outa, double *outb, int *error)
 {
 double f;
 double g;
