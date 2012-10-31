@@ -12,6 +12,6 @@ ans <- .C("IPwofzvec",
 if (ans$error != 0)
 	stop(paste("Error code from TOMS 680 was ", ans$error))
 
-return(complex(real=ans$ansx, im=ans$ansy))
+return(complex(real=ans$ansx, imaginary=ans$ansy))
 
 }
