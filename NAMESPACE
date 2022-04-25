@@ -1,3 +1,10 @@
 # Export all names
-exportPattern(".")
-useDynLib(NORMT3)
+export(dnormt3)
+export(dst)
+export(erf)
+export(erfc)
+export(ic1)
+export(is1)
+export(normt3ip)
+export(wofz)
+useDynLib(NORMT3, .registration=TRUE, .fixes="C_")
